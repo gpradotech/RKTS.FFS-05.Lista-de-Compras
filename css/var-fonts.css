@@ -1,0 +1,22 @@
+html {
+  /* family */
+  --ff-sans-primary: "Inter", sans-serif;
+
+  /* weight */
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+  
+  
+  /* size */
+    --fs-lg: 1.5rem; /* 24px */
+    --fs-base: 1rem; /* 16px */
+    --fs-sm: 0.875rem; /* 14px */
+
+  /* set tokens */ 
+  /*                  font-style |  font-weight |         font-size |               font-family */
+    --font-title:     normal        var(--fw-bold)        var(--fs-lg)/2rem         var(--ff-sans-primary);
+    --font-label:     normal        var(--fw-semi-bold)   var(--fs-base)/1.25rem    var(--ff-sans-primary);
+    --font-paragraph: normal        var(--fw-medium)      var(--fs-base)/1.25rem    var(--ff-sans-primary);
+    --font-link:      normal        var(--fw-medium)      var(--fs-sm)/1rem         var(--ff-sans-primary);
+}

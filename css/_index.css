@@ -1,0 +1,7 @@
+/* settings */
+@import url(reset.css);
+@import url(var-colors.css);
+@import url(var-fonts.css);
+
+/* styles */
+@import url(styles.css);
